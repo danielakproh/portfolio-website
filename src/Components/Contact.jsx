@@ -2,9 +2,13 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div>
-            Contact
-        </div>
+        <>
+            <section>
+                <div>CONTACT ME</div>
+                <div>Contact form</div>
+            </section>
+            <div className='bg-gray-300'> horizontal bar</div>
+        </>
     )
 }
 
