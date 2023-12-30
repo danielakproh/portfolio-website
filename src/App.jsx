@@ -19,6 +19,8 @@ const App = () => {
       <About />
       <Contact />
       <Footer />
+
+      <div className="card">blahblah</div>
     </div>
   )
 }

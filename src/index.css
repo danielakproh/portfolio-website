@@ -1,6 +1,9 @@
 @tailwind base;
+/*base layer -> ex: h2, h1 etc.*/
 @tailwind components;
+/*components layer -> ex: card, */
 @tailwind utilities;
+/*utilities layer -> styles that tailwind doesn't supply by default (twitter-blue color)*/
 
 * {
     font-family: 'Inter', sans-serif;
@@ -8,4 +11,19 @@
 
 body {
     background-color: #F1EAE1;
+}
+
+@layer components {
+    .card {
+        background-color: blue;
+        /* background-color: theme(colors.bright-green); */
+
+        @apply flex items-center justify-center;
+        /*
+        @apply is equivalent to specifying each css property individually like:
+        display: flex;
+        align-items: center;
+        justify-content: centerl
+        */
+    }
 }
