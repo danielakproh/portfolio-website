@@ -5,25 +5,79 @@
 @tailwind utilities;
 /*utilities layer -> styles that tailwind doesn't supply by default (twitter-blue color)*/
 
-* {
+/* * {
     font-family: 'Inter', sans-serif;
-}
+} */
 
 body {
-    background-color: #F1EAE1;
+    background-color: #FFE6CB;
 }
 
 @layer components {
-    .card {
-        background-color: blue;
+    .card-test {
+        /* background-color: blue; */
         /* background-color: theme(colors.bright-green); */
 
-        @apply flex items-center justify-center;
+        /* @apply flex items-center justify-center; */
         /*
         @apply is equivalent to specifying each css property individually like:
         display: flex;
         align-items: center;
         justify-content: centerl
         */
+    }
+
+    .inter-family {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .navbar-items {
+        color: theme(colors.light-grey);
+    }
+
+    .brand-initials {
+        font-family: 'Luxurious Script', cursive;
+        font-size: 50px;
+        color: black;
+    }
+
+    .shadow-custom {
+        box-shadow: 9px 4px 10px -6px rgba(0, 0, 0, 0.81);
+        -webkit-box-shadow: 9px 4px 10px -6px rgba(0, 0, 0, 0.81);
+        -moz-box-shadow: 9px 4px 10px -6px rgba(0, 0, 0, 0.81);
+    }
+
+    .who-am-i h1 {}
+
+    .who-am-i p {}
+
+    .emphasized-text {
+        color: theme(colors.emphasis-orange);
+    }
+
+    .background-title {
+        color: theme(colors.ghost-grey);
+    }
+
+    .my-button {
+        color: theme(colors.emphasis-orange);
+    }
+
+    .job-card {
+        color: theme(colors.milky-brown);
+    }
+
+    .timeline-bar {
+        color: theme(colors.dark-grey);
+    }
+
+    .timeline-date {
+        color: theme(colors.brown-chocolat);
+    }
+
+    .separation-bar {
+        border-top: 1px solid #6767675f;
+        /* Color of the line */
+        margin: ;
     }
 }
