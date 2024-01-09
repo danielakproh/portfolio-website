@@ -4,13 +4,10 @@ const About = () => {
     return (
         <>
             <section>
-                <div>ABOUT / KNOW ME MORE</div>
-                <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quos doloremque,
-                    neque excepturi veniam eum quia aperiam temporibus laudantium libero consequuntur officiis,
-                    explicabo quidem, obcaecati quas. Dolore recusandae illum labore.
+                <div> about me text
                 </div>
             </section>
-            <div className='bg-gray-300'> horizontal bar</div>
+            <div className='separation-bar w-60 mt-12 mx-auto'> </div>
         </>
     )
 }

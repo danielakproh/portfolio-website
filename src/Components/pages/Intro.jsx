@@ -8,8 +8,8 @@ const Intro = () => {
                     <img src="src/assets/Profile.jpg" alt="" className='w-full h-full rounded-full object-contain hover:bg-gray-300 hover:shadow-lg' />
                 </div>
                 <div className='inter-family who-am-i m-20'>
-                    <h1>Daniel Akproh</h1>
-                    <p>Software Development Technician at <span className='emphasized-text'>Vermac</span></p>
+                    <h1 className='text-6xl font-bold'>Daniel Akproh</h1>
+                    <p className='text-2xl text-gray-500 font-semibold'>Software Development Technician at <span className='emphasized-text'>Vermac</span></p>
                 </div>
             </section>
             <div className='separation-bar w-60 mt-12 mx-auto'> </div>

@@ -4,11 +4,10 @@ const Background = () => {
     return (
         <>
             <section>
-                <div>MY JOURNEY / BACKGROUND</div>
                 <div>Timeline</div>
                 <div>Download CV button</div>
             </section>
-            <div className='bg-gray-300'> horizontal bar</div>
+            <div className='separation-bar w-60 mt-12 mx-auto'> </div>
         </>
     )
 }

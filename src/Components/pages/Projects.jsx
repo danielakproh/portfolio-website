@@ -4,10 +4,9 @@ const Projects = () => {
     return (
         <>
             <section>
-                <div>MY WORK / PROJECTS</div>
                 <div>Project/boxes</div>
             </section>
-            <div className='bg-gray-300'> horizontal bar</div>
+            <div className='separation-bar w-60 mt-12 mx-auto'> </div>
         </>
 
     )
